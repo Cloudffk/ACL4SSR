@@ -319,7 +319,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
   - name: 亚洲节点
-    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Lab.png
     include-all: true
     filter: (?i)阿联酋|印度|韩国|马来|菲律宾|泰国|越南|印尼
     type: url-test
@@ -333,7 +333,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
   - name: 其他节点
-    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Lab.png
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Airport.png
     include-all: true
     filter: (?i)澳大利亚|阿根廷|巴西
     type: url-test
