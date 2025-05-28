@@ -9,7 +9,10 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 美国节点
-      - 韩国节点
+      - 亚洲节点
+      - 欧洲节点
+      - 其他节点
+      - BPB节点
       - 手动切换
       - DIRECT
   - name: 手动切换
@@ -33,7 +36,10 @@ proxy-groups:
       - 台湾节点
       - 日本节点
       - 美国节点
-      - 韩国节点
+      - 亚洲节点
+      - 欧洲节点
+      - 其他节点
+      - BPB节点
       - 手动切换
       - DIRECT
   - name: OpenAi
@@ -44,8 +50,11 @@ proxy-groups:
       - 台湾节点
       - 日本节点
       - 美国节点
-      - 韩国节点
       - 香港节点
+      - 亚洲节点
+      - 欧洲节点
+      - 其他节点
+      - BPB节点
       - 自动选择
       - 节点选择
       - 手动切换
@@ -61,7 +70,10 @@ proxy-groups:
       - 台湾节点
       - 日本节点
       - 美国节点
-      - 韩国节点
+      - 亚洲节点
+      - 欧洲节点
+      - 其他节点
+      - BPB节点
       - 手动切换
       - DIRECT
   - name: 奈飞视频
@@ -76,7 +88,10 @@ proxy-groups:
       - 台湾节点
       - 日本节点
       - 美国节点
-      - 韩国节点
+      - 亚洲节点
+      - 欧洲节点
+      - 其他节点
+      - BPB节点
       - 手动切换
       - DIRECT
   - name: 巴哈姆特
@@ -105,7 +120,10 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 美国节点
-      - 韩国节点
+      - 亚洲节点
+      - 欧洲节点
+      - 其他节点
+      - BPB节点
       - 手动切换
       - DIRECT
   - name: 国内媒体
@@ -130,7 +148,10 @@ proxy-groups:
       - 台湾节点
       - 狮城节点
       - 日本节点
-      - 韩国节点
+      - 亚洲节点
+      - 欧洲节点
+      - 其他节点
+      - BPB节点
       - 手动切换
   - name: 微软Bing
     icon: https://cdn.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/bing.png
@@ -144,7 +165,10 @@ proxy-groups:
       - 台湾节点
       - 狮城节点
       - 日本节点
-      - 韩国节点
+      - 亚洲节点
+      - 欧洲节点
+      - 其他节点
+      - BPB节点
       - 手动切换
   - name: 微软云盘
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
@@ -158,7 +182,10 @@ proxy-groups:
       - 台湾节点
       - 狮城节点
       - 日本节点
-      - 韩国节点
+      - 亚洲节点
+      - 欧洲节点
+      - 其他节点
+      - BPB节点
       - 手动切换
   - name: 微软服务
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
@@ -172,7 +199,10 @@ proxy-groups:
       - 台湾节点
       - 狮城节点
       - 日本节点
-      - 韩国节点
+      - 亚洲节点
+      - 欧洲节点
+      - 其他节点
+      - BPB节点
       - 手动切换
   - name: 苹果服务
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png
@@ -186,7 +216,10 @@ proxy-groups:
       - 台湾节点
       - 狮城节点
       - 日本节点
-      - 韩国节点
+      - 亚洲节点
+      - 欧洲节点
+      - 其他节点
+      - BPB节点
       - 手动切换
   - name: 游戏平台
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
@@ -200,7 +233,10 @@ proxy-groups:
       - 台湾节点
       - 狮城节点
       - 日本节点
-      - 韩国节点
+      - 亚洲节点
+      - 欧洲节点
+      - 其他节点
+      - BPB节点
       - 手动切换
   - name: 网易音乐
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netease_Music.png
@@ -242,7 +278,10 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 美国节点
-      - 韩国节点
+      - 亚洲节点
+      - 欧洲节点
+      - 其他节点
+      - BPB节点
       - 手动切换
   - name: 香港节点
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
@@ -279,19 +318,40 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
-  - name: 韩国节点
-    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
+  - name: 亚洲节点
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
     include-all: true
-    filter: (?i)KR|Korea|KOR|首尔|韩|韓
+    filter: (?i)阿联酋|印度|韩国|马来|菲律宾|泰国|越南|印尼
+    type: url-test
+    interval: 300
+    tolerance: 50 
+  - name: 欧洲节点
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/European_Union.png
+    include-all: true
+    filter: (?i)德国|法国|英国|爱尔兰|意大利|荷兰|俄罗斯|土耳其|乌克兰
     type: url-test
     interval: 300
     tolerance: 50
+  - name: 其他节点
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Lab.png
+    include-all: true
+    filter: (?i)澳大利亚|阿根廷|巴西
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: BPB节点
+    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Mickey.png
+    include-all: true
+    filter: (?i)BPB|💦
+    type: url-test
+    interval: 300
+    tolerance: 50  
   - name: 奈飞节点
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     include-all: true
     filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
     type: select
-  - name: GLOBAL
+  - name: 
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
     include-all: true
     type: url-test
@@ -325,7 +385,10 @@ proxy-groups:
       - 美国节点
       - 台湾节点
       - 狮城节点
-      - 韩国节点
+      - 亚洲节点
+      - 欧洲节点
+      - 其他节点
+      - BPB节点
       - 奈飞节点
 
 rule-providers:
