@@ -80,7 +80,6 @@ proxy-groups:
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     type: select
     proxies:
-      - 奈飞节点
       - 自动选择
       - 节点选择
       - 狮城节点
@@ -346,11 +345,6 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50  
-  - name: 奈飞节点
-    icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
-    include-all: true
-    filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
-    type: select
   - name: GLOBAL
     icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
     include-all: true
@@ -389,7 +383,6 @@ proxy-groups:
       - 欧洲节点
       - 其他节点
       - BPB节点
-      - 奈飞节点
 
 rule-providers:
   LocalAreaNetwork:
